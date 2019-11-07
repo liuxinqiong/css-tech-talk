@@ -1,32 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <!-- <h2 class="text-center">你可能不知道的 CSS</h2> -->
+    <ul>
+      <li><router-link to="/inline-box">内联盒模型</router-link></li>
+      <li><router-link to="/z-index">层叠规则</router-link></li>
+    </ul>
     <router-view />
   </div>
 </template>
 
-<style lang="less">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+<style>
+.text-center {
   text-align: center;
-  color: #2c3e50;
 }
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+.border {
+  border: 1px solid;
 }
 </style>

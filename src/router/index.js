@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import InlineBox from "../views/InlineBox.vue";
 
 Vue.use(VueRouter);
 
@@ -11,13 +12,18 @@ const routes = [
     component: Home
   },
   {
-    path: "/about",
-    name: "about",
+    path: "/inline-box",
+    name: "inline-box",
+    component: InlineBox
+  },
+  {
+    path: "/z-index",
+    name: "z-index",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
+      import(/* webpackChunkName: "about" */ "../views/ZIndex.vue")
   }
 ];
 

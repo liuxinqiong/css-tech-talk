@@ -1,13 +1,12 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/1.jpg" />
+  <div>
+    z-index
   </div>
 </template>
 
 <script>
 
 export default {
-  name: "home",
   components: {
     
   }
