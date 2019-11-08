@@ -1,11 +1,7 @@
 <template>
   <div id="app">
-    <!-- <h2 class="text-center">你可能不知道的 CSS</h2> -->
-    <ul>
-      <li><router-link to="/inline-box">内联盒模型</router-link></li>
-      <li><router-link to="/z-index">层叠规则</router-link></li>
-    </ul>
-    <router-view />
+    <h2 class="text-center">你可能不知道的 CSS</h2>
+    <router-view/>
   </div>
 </template>
 
