@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h3>1. 为啥这里有空隙？</h3>
+    <h3>1. 为啥这里有空隙？尝试一下其他 vertical-align 值？</h3>
     <div class="border">
       <img src="../assets/1.jpg" alt>
       <!-- 解决方式：line-height、font-size、vertical-align、block 化 -->
       <!-- TODO：删掉 Good 试试 -->
       <!-- <span class="inline-block">Good</span> -->
-      <!-- <span>X</span> -->
+      <span>x</span>
     </div>
     <h3>2. 为什么合理高度总比预期高一点点？</h3>
     <div class="box">
